@@ -44,7 +44,7 @@ Linux gives Docker three main building blocks:
 
 1. **Namespaces** → *What a process can SEE*
 2. **cgroups** → *What a process can USE*
-3. **Union filesystem** → *How files are layered*
+3. **Overlay filesystem** → *How files are layered*
 
 Docker just wires these together nicely.
 
@@ -130,7 +130,7 @@ If the container breaks the rule → kernel stops it.
 
 ---
 
-## 3️⃣ Union Filesystem — “Where do my files come from?”
+## 3️⃣ Overlay Filesystem — “Where do my files come from?”
 
 This explains:
 
