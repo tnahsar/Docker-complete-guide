@@ -213,7 +213,7 @@ Same result everywhere.
 
 ---
 
-## Chapter 1 summary (in plain words)
+## Summary
 
 * Apps fail across machines because environments differ
 * Docs and VMs were bad solutions
