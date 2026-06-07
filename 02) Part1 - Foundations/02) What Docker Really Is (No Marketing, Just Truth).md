@@ -3,7 +3,7 @@
 
 # 📘 PART 1 — FOUNDATIONS
 
-## Chapter 2: **What Docker Really Is (No Marketing, Just Truth)**
+## Chapter 2: **What Docker Really Is**
 
 ---
 
@@ -117,7 +117,7 @@ Here's the big picture of how it works:
 * **Images** are the **read-only blueprints**.
 * **Containers** are **instances** of those blueprints, with a **writable layer** on top.
 * When you start a container, Docker makes a copy of the image and adds a writable layer on top of it.
-* You can start many containers from the same image. They all share the same base (the image), but they each have their own writable layer for changes.
+* You can start many containers from the same image. They all share the same base (the image), but each of them will have their own writable layer for changes.
 
 ---
 
@@ -153,7 +153,7 @@ When you run a container, Docker takes this stack and adds a **writable layer** 
 ## 6. **Why Layers Matter**
 
 * **Efficiency**: If many containers use the same base image (e.g., Ubuntu), they **share layers**, reducing storage.
-* **Caching**: Docker caches each layer, so if you don’t change something in your Dockerfile, Docker **doesn’t rebuild** that layer. This speeds up builds.
+* **Caching**: Docker caches each layer, so if you don’t change anything in your Dockerfile, Docker **doesn’t rebuild** that layer. This speeds up builds.
 
 ---
 
@@ -165,7 +165,7 @@ When you run a container, Docker takes this stack and adds a **writable layer** 
 
 ---
 
-## Chapter 2 Summary:
+## Summary:
 
 * **Docker Engine** consists of the **Daemon** (background process) and the **CLI** (command line interface).
 * **Images** are read-only blueprints that contain everything needed to run an app.
