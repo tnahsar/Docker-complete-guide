@@ -21,10 +21,6 @@ Large images cause:
 * More bandwidth usage
 * Bigger security attack surface
 
-📌 **Rule of thumb:**
-
-> If your image is > 500MB → something is wrong.
-
 ---
 
 ## 21.2 Choosing the Right Base Image
